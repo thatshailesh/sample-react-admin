@@ -1,0 +1,5 @@
+{
+    "tslint.alwaysShowStatus": false,
+    "tslint.autoFixOnSave": false,
+    "tslint.enable": false,
+}
