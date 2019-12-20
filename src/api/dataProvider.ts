@@ -46,13 +46,10 @@ export default {
     };
     const url = `${apiUrl}/${resource}`;
 
-    return httpClient(url).then(({ headers, json }) => {
-      console.log('json ->> ', json);
-      return {
-        data: json,
-        total: 10,
-      };
-    });
+    return httpClient(url).then(({ headers, json }) => ({
+      data: json,
+      total: 10,
+    }));
   },
 
 
